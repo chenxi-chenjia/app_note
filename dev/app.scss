@@ -1,0 +1,31 @@
+@import "./basecss/base";
+@import "./component/footer/footer";
+@import "./pages/article/article";
+@import "./pages/calculate/calculate";
+@import './pages/home/home';
+@import './pages/list/list';
+@import './pages/notepad/notepad';
+@import './pages/notepad_edit/notepad_edit';
+
+header{
+    z-index: 10;
+}
+
+.list-group-item:first-child {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+}
+.list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+}
+.page-header {
+    padding-bottom: 9px;
+    margin: 10px 0 15px;
+    border-bottom: 1px solid #eee;
+}

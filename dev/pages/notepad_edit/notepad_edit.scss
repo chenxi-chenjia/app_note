@@ -1,0 +1,87 @@
+html,body,#app{
+	height:100%;
+}
+#app{
+	position:relative;
+}
+
+#notepad_edit{
+	width:100%;
+	padding:50px 10px;
+	header{
+		height: 50px;
+		line-height: 50px;
+		background:#000;
+		position:fixed;
+		top:0;
+		left:0;
+		width:100%;
+		padding:0 10px;
+		z-index: 0;
+		.iconfont{
+			color:#eee;
+			height: 100%;
+			line-height: 50px;
+		}
+		.icon-fanhui{
+			float: left;
+		}
+		.icon-101{
+			float: right;
+			font-size: 20px;
+		}
+	}
+	input,textarea{
+		border:0;
+		outline: none;
+	}
+	h4{
+		padding: 10px 0;
+		border-bottom:1px dashed #ccc;
+		position:relative;
+	}
+	label{
+		margin:0;
+	}
+	input{
+		position:absolute;
+		width: 80%;
+		height: 100%;
+		left:50px;
+		top:0;
+	}
+	textarea{
+		width: 100%;
+		min-height: 300px;
+		overflow-y: auto;
+		resize:none;
+		text-indent:2em;
+	}
+	.alert{
+		position:fixed;
+		z-index: 1;
+		top:50%;
+		left:50%;
+		width:50%;
+		text-align: center;
+		transform:translate(-50%,-50%);
+		animation-name:fadeInDown;
+		animation-duration:2s;
+		animation-timing-function:ease-in-out;
+		animation-fill-mode :forwards ;
+	}
+}
+@keyframes fadeInDown{
+	0%{
+		opacity: 0;
+	}
+	15%{
+		opacity: 1;
+	}
+	85%{
+		opacity: 1;
+	}
+	100%{
+		opacity: 0;
+	}
+}

@@ -1,0 +1,39 @@
+button{
+	border:0;
+	outline:none;
+	background:#3e3e3e;
+	h5,i{
+		color:#fff;
+	}
+	i.iconfont{
+		font-size: 25px;
+	}
+}
+button:active{
+	background: #666;
+}
+li,ul,dt,dd,dl{
+	list-style:none;
+}
+.no-float{
+	&:after{
+		content: '';
+		clear:both;
+		display: block;
+	}
+}
+.fl{
+	float:left;
+}
+a{
+	text-decoration: none !important;
+}
+ul{
+	padding:0;
+}
+li{
+	list-style:none;
+}
+
+
+@import 'animate'

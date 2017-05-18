@@ -1,0 +1,346 @@
+//进入离开动画效果
+//左边进入动画效果
+@keyframes leftEnter{
+	from{
+		transform:translateX(-100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+ /* Firefox */
+@-moz-keyframes leftEnter{
+	from{
+		transform:translateX(-100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes leftEnter {
+	from{
+		transform:translateX(-100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+ /* Opera */
+@-o-keyframes leftEnter{
+	from{
+		transform:translateX(-100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+//左边离开动画效果
+@keyframes leftLeave{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translateX(-100%);
+	}
+}
+ /* Firefox */
+@-moz-keyframes leftLeave{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translateX(-100%);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes leftLeave {
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translateX(-100%);
+	}
+}
+ /* Opera */
+@-o-keyframes leftLeave{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translateX(-100%);
+	}
+}
+//右边进入动画效果
+@keyframes rightEnter{
+	from{
+		transform:translateX(100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+ /* Firefox */
+@-moz-keyframes rightEnter{
+	from{
+		transform:translateX(100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes rightEnter {
+	from{
+		transform:translateX(100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+ /* Opera */
+@-o-keyframes rightEnter{
+	from{
+		transform:translateX(100%);
+	}
+	to{
+		transform:translateX(0);
+	}
+}
+//右边了离开动画效果
+@keyframes rightLeave{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translate(100%);
+	}
+}
+ /* Firefox */
+@-moz-keyframes rightLeave{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translate(100%);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes rightLeave {
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translate(100%);
+	}
+}
+ /* Opera */
+@-o-keyframes rightLeave{
+	from{
+		transform:translateX(0);
+	}
+	to{
+		transform:translate(100%);
+	}
+}
+
+//上边进入动画效果
+@keyframes topEnter{
+	from{
+		transform:translateY(-100%);
+	}
+	to{
+		transform:translateY(0);
+	}
+}
+ /* Firefox */
+@-moz-keyframes topEnter{
+	from{
+		transform:translateY(-100%);
+	}
+	to{
+		transform:translateY(0);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes topEnter {
+	from{
+		transform:translateY(-100%);
+	}
+	to{
+		transform:translateY(0);
+	}
+}
+ /* Opera */
+@-o-keyframes topEnter{
+	from{
+		transform:translateY(-100%);
+	}
+	to{
+		transform:translateY(0);
+	}
+}
+//上边了离开动画效果
+@keyframes topLeave{
+	from{
+		transform:translateY(0);
+	}
+	to{
+		transform:translateY(0);
+	}
+}
+ /* Firefox */
+@-moz-keyframes topLeave{
+	from{
+		transform:translateY(0);
+	}
+	to{
+		transform:translateY(-100%);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes topLeave {
+	from{
+		transform:translateY(0);
+	}
+	to{
+		transform:translateY(-100%);
+	}
+}
+ /* Opera */
+@-o-keyframes topLeave{
+	from{
+		transform:translateY(0);
+	}
+	to{
+		transform:translateY(-100%);
+	}
+}
+//旋转进入动画效果
+@keyframes scaleEnter{
+	from{
+		transform:scale(0,0) rotate(-720deg);
+	}
+	to{
+		transform:scale(1,1) rotate(0);
+	}
+}
+ /* Firefox */
+@-moz-keyframes scaleEnter{
+	from{
+		transform:scale(0,0) rotate(-720deg);
+	}
+	to{
+		transform:scale(1,1) rotate(0);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes scaleEnter {
+	from{
+		transform:scale(0,0) rotate(-720deg);
+	}
+	to{
+		transform:scale(1,1) rotate(0);
+	}
+}
+ /* Opera */
+@-o-keyframes scaleEnter{
+	from{
+		transform:scale(0,0) rotate(-720deg);
+	}
+	to{
+		transform:scale(1,1) rotate(0);
+	}
+}
+//旋转离开动画效果
+@keyframes scaleLeave{
+	from{
+		transform:scale(1,1) rotate(0);
+	}
+	to{
+		transform:scale(0,0) rotate(-720deg);
+	}
+}
+ /* Firefox */
+@-moz-keyframes scaleLeave{
+	from{
+		transform:scale(1,1) rotate(0);
+	}
+	to{
+		transform:scale(0,0) rotate(-720deg);
+	}
+}
+/* Safari 和 Chrome */
+@-webkit-keyframes scaleLeave {
+	from{
+		transform:scale(1,1) rotate(0);
+	}
+	to{
+		transform:scale(0,0) rotate(-720deg);
+	}
+}
+ /* Opera */
+@-o-keyframes scaleLeave{
+	from{
+		transform:scale(1,1) rotate(0);
+	}
+	to{
+		transform:scale(0,0) rotate(-720deg);
+	}
+}
+@keyframes opacityLeave
+{
+0% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@-moz-keyframes opacityLeave /* Firefox */
+{
+0% {opacity: 1;}
+
+100% {opacity: 0;}
+}
+
+@-webkit-keyframes opacityLeave /* Safari 和 Chrome */
+{
+0% {opacity: 1;}
+100% {opacity: 0;}
+}
+
+@-o-keyframes opacityLeave /* Opera */
+{
+0% {opacity: 1;}
+100% {opacity: 0;}
+}
+.animate-left-enter{
+	animation: leftEnter .5s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-left-leave{
+	animation: leftLeave .5s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-right-enter{
+	animation: rightEnter .5s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-right-leave{
+	animation: rightLeave .5s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-top-enter{
+	animation: topEnter .5s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-top-leave{
+	animation: topLeave .5s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-scale-enter{
+	animation: scaleEnter 1s ease-in-out;
+	animation-fill-mode:forwards ;
+}
+.animate-scale-leave{
+	animation: scaleLeave 1s ease-in-out;
+	animation-fill-mode:forwards ;
+}
