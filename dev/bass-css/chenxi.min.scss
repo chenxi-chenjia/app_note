@@ -94,21 +94,21 @@ body:after,body:before,.container:after,.container:before,.container-fluid:befor
 	padding-left:15px;
 	padding-right:15px;
 }
-.row:after,.clearfix:after{
+.container:after,.container-fluid:after,.row:after,.clearfix:after{
 	clear:both;
 }
 .container>.row{
 	margin-left:-15px;
 	margin-right:-15px;
 }
-@for $i from 1 to 10{
+@for $i from 1 to 12{
 	.col-#{$i}{
 		position:relative;
 		float: left;
-		width: 1 / $i * 100% ;
+		width: $i / 12 * 100% ;
 	}
 	.col-offset-#{$i}{
-		margin-left: 1 / $i * 100% ;
+		margin-left: $i / 12 * 100% ;
 	}
 }
 li,dt,dd{
