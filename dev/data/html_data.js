@@ -16,6 +16,9 @@ var data=[
 		title:'flex布局',
 		content:'flex基本概念：使用flex首先需要给父容器设置 display : flex;<->\
 			flex 的核心概念是容器和轴'
+	},{
+		title:'animate',
+		content:'animation-iteration-count: infinite;'
 	}
 ];
 

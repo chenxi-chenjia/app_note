@@ -195,7 +195,7 @@ input{
 	-webkit-appearance: none;
 	-moz-appearance:textfield;
 }
-input[type="number"],input[type="text"],input[type="tel"],input[type="password"],input[type="emile"],,input[type="url"],,input[type="range"],,input[type="date"]{
+input[type="number"],input[type="text"],input[type='emile'],input[type="tel"],input[type="password"],input[type="emile"],,input[type="url"],,input[type="range"],,input[type="date"]{
 	padding:10px 6px;
 	font-size:16px;
 	border-radius:$border_radius;
@@ -293,6 +293,9 @@ input[type=checkbox].flag:checked{
 	margin-right:auto;
 	display:block;
 }
+.text-center{
+	text-align:center;
+}
 .show{
 	display:block !important;
 }
@@ -355,4 +358,13 @@ input[type=checkbox].flag:checked{
 		border-bottom:1px solid #000;
 		transform:rotate(45deg);
 	}
+}
+$Hwidth:320px,360px,375px,412px,414px,768px;
+$Swidth:750px;
+@each $i in $Hwidth{
+    @media screen and (min-width:#{$i}){
+        html{
+            font-size:100px * $i / $Swidth;
+        }
+    } 
 }
